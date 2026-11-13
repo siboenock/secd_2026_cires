@@ -37,3 +37,11 @@ Open the editable diagrams in Draw.io. Static Figma screen previews are in [prot
 ## Submit
 
 Verify the intended reviewer can open the prototype link. Create the `m3` GitHub release from the submitted commit and post its link on the class platform.
+
+## Milestone 4 implementation
+
+- [Chapter Desk source and setup](src/README.md)
+- [MySQL schema and demo data](src/database/fyp_workspace.sql)
+- [Implementation progress report](docs/m4-implementation/Group3-FYP-M4-Progress-Report.docx)
+- [AI use log](docs/ai-use-log.md)
+- [FYP Jira board](https://siboenock.atlassian.net/jira/software/projects/SCRUM/boards/1)
