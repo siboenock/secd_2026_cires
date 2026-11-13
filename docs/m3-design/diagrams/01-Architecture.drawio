@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Deployment and interfaces">
+    <mxGraphModel grid="1" page="1" pageWidth="1200" pageHeight="900">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;b&gt;Thesis review architecture&lt;/b&gt;&lt;br&gt;Group 3 · UNILAK · Logical deployment and communication" vertex="1" parent="1" style="rounded=1;html=1;fillColor=#183738;strokeColor=none;fontColor=#ffffff;align=left;spacingLeft=18;fontSize=21;">
+          <mxGeometry as="geometry" x="35" y="25" width="1120" height="76" />
+        </mxCell>
+        <mxCell id="browser" value="&lt;b&gt;Browser&lt;/b&gt;&lt;br&gt;Student and assigned supervisor&lt;br&gt;Responsive workspace" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="45" y="200" width="230" height="115" />
+        </mxCell>
+        <mxCell id="service" value="&lt;b&gt;Application host · pilot server&lt;/b&gt;&lt;br&gt;PHP web app · session and assignment checks&lt;br&gt;Chapter uploads · reviews · progress links" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="400" y="180" width="360" height="150" />
+        </mxCell>
+        <mxCell id="db" value="&lt;b&gt;Relational database&lt;/b&gt;&lt;br&gt;Accounts, assignments, chapter metadata,&lt;br&gt;version decisions and progress links" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="880" y="145" width="270" height="115" />
+        </mxCell>
+        <mxCell id="files" value="&lt;b&gt;Private file storage&lt;/b&gt;&lt;br&gt;PDF and DOCX versions&lt;br&gt;Outside the public web directory" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="880" y="330" width="270" height="115" />
+        </mxCell>
+        <mxCell id="git" value="&lt;b&gt;GitHub · external&lt;/b&gt;&lt;br&gt;Commit and pull request pages&lt;br&gt;Repository access managed by GitHub" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="45" y="465" width="290" height="115" />
+        </mxCell>
+        <mxCell id="e1" value="HTTPS · forms and downloads" edge="1" parent="1" source="browser" target="service" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e2" value="SQL · transactions" edge="1" parent="1" source="service" target="db" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e3" value="File read/write" edge="1" parent="1" source="service" target="files" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e4" value="HTTPS · open shared link" edge="1" parent="1" source="browser" target="git" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="note" value="Every document download is served through the application after an assignment check.&lt;br&gt;GitHub links are stored as URLs. The pilot has no GitHub API integration or GitHub credential storage." vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="400" y="490" width="750" height="100" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

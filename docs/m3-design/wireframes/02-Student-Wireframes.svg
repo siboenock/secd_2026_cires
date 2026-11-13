@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="510" viewBox="0 0 1120 510">
+<rect width="100%" height="100%" fill="#f2f2f2"/>
+<text x="34" y="42" font-family="sans-serif" font-size="24" font-weight="700" fill="#232323">Student journey · Submit, revise and check history</text>
+<rect x="34" y="70" width="330" height="390" rx="5" fill="white" stroke="#777"/>
+<rect x="50" y="86" width="298" height="38" rx="5" fill="#dedede" stroke="#777"/>
+<text x="62" y="111" font-family="sans-serif" font-size="17" font-weight="700" fill="#232323">Submit chapter</text>
+<text x="55" y="153" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Chapter</text>
+<rect x="55" y="164" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="64" y="186" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Methodology</text>
+<text x="55" y="228" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Chapter file</text>
+<rect x="55" y="239" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="64" y="261" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">PDF or DOCX · Up to 10 MB</text>
+<text x="55" y="303" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Selected file</text>
+<rect x="55" y="314" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="64" y="336" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Methodology-v1.pdf</text>
+<text x="55" y="378" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Action</text>
+<rect x="55" y="389" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="64" y="411" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Submit chapter</text>
+<rect x="394" y="70" width="330" height="390" rx="5" fill="white" stroke="#777"/>
+<rect x="410" y="86" width="298" height="38" rx="5" fill="#dedede" stroke="#777"/>
+<text x="422" y="111" font-family="sans-serif" font-size="17" font-weight="700" fill="#232323">Changes requested</text>
+<text x="415" y="153" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Latest version</text>
+<rect x="415" y="164" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="424" y="186" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Version 1 · Changes requested</text>
+<text x="415" y="228" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Supervisor feedback</text>
+<rect x="415" y="239" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="424" y="261" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Add the sampling criteria</text>
+<text x="415" y="303" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Action</text>
+<rect x="415" y="314" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="424" y="336" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Submit a revision</text>
+<rect x="754" y="70" width="330" height="390" rx="5" fill="white" stroke="#777"/>
+<rect x="770" y="86" width="298" height="38" rx="5" fill="#dedede" stroke="#777"/>
+<text x="782" y="111" font-family="sans-serif" font-size="17" font-weight="700" fill="#232323">Chapter history</text>
+<text x="775" y="153" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Version 2</text>
+<rect x="775" y="164" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="784" y="186" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Reviewed · Continue</text>
+<text x="775" y="228" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Version 1</text>
+<rect x="775" y="239" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="784" y="261" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Changes requested</text>
+<text x="775" y="303" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Feedback</text>
+<rect x="775" y="314" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="784" y="336" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Shown with each version</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="510" viewBox="0 0 1120 510">
+<rect width="100%" height="100%" fill="#f2f2f2"/>
+<text x="34" y="42" font-family="sans-serif" font-size="24" font-weight="700" fill="#232323">First-pass wireframes · Before design review</text>
+<rect x="34" y="70" width="330" height="390" rx="5" fill="white" stroke="#777"/>
+<rect x="50" y="86" width="298" height="38" rx="5" fill="#dedede" stroke="#777"/>
+<text x="62" y="111" font-family="sans-serif" font-size="17" font-weight="700" fill="#232323">Student workspace</text>
+<text x="55" y="153" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Chapter</text>
+<rect x="55" y="164" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="64" y="186" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Methodology</text>
+<text x="55" y="228" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Status</text>
+<rect x="55" y="239" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="64" y="261" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Current status</text>
+<text x="55" y="303" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Action</text>
+<rect x="55" y="314" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="64" y="336" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Upload</text>
+<rect x="394" y="70" width="330" height="390" rx="5" fill="white" stroke="#777"/>
+<rect x="410" y="86" width="298" height="38" rx="5" fill="#dedede" stroke="#777"/>
+<text x="422" y="111" font-family="sans-serif" font-size="17" font-weight="700" fill="#232323">Chapter upload</text>
+<text x="415" y="153" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">File</text>
+<rect x="415" y="164" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="424" y="186" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Choose file</text>
+<text x="415" y="228" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Action</text>
+<rect x="415" y="239" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="424" y="261" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Upload</text>
+<rect x="754" y="70" width="330" height="390" rx="5" fill="white" stroke="#777"/>
+<rect x="770" y="86" width="298" height="38" rx="5" fill="#dedede" stroke="#777"/>
+<text x="782" y="111" font-family="sans-serif" font-size="17" font-weight="700" fill="#232323">Supervisor review</text>
+<text x="775" y="153" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Chapter</text>
+<rect x="775" y="164" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="784" y="186" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Methodology.pdf</text>
+<text x="775" y="228" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Feedback</text>
+<rect x="775" y="239" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="784" y="261" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Enter feedback</text>
+<text x="775" y="303" font-family="sans-serif" font-size="15" font-weight="700" fill="#232323">Actions</text>
+<rect x="775" y="314" width="288" height="32" rx="5" fill="#f6f6f6" stroke="#777"/>
+<text x="784" y="336" font-family="sans-serif" font-size="13" font-weight="400" fill="#232323">Approve / Return</text>
+</svg>

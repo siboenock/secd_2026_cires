@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Relational model in 3NF">
+    <mxGraphModel grid="1" page="1" pageWidth="1200" pageHeight="900">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;b&gt;Thesis review data model&lt;/b&gt;&lt;br&gt;PK primary key · FK foreign key · UQ unique constraint" vertex="1" parent="1" style="rounded=1;html=1;fillColor=#183738;strokeColor=none;fontColor=#ffffff;align=left;spacingLeft=18;fontSize=21;">
+          <mxGeometry as="geometry" x="35" y="25" width="1120" height="76" />
+        </mxCell>
+        <mxCell id="account" value="&lt;b&gt;ACCOUNT&lt;/b&gt;&lt;br&gt;PK account_id&lt;br&gt;UQ email&lt;br&gt;display_name, password_hash, role" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="40" y="155" width="310" height="128" />
+        </mxCell>
+        <mxCell id="project" value="&lt;b&gt;PROJECT&lt;/b&gt;&lt;br&gt;PK project_id&lt;br&gt;FK student_id → ACCOUNT&lt;br&gt;FK supervisor_id → ACCOUNT&lt;br&gt;title" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="400" y="155" width="310" height="128" />
+        </mxCell>
+        <mxCell id="progress" value="&lt;b&gt;PROGRESS_UPDATE&lt;/b&gt;&lt;br&gt;PK update_id · FK project_id&lt;br&gt;github_url, summary, shared_at&lt;br&gt;feedback, feedback_at (optional)" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="795" y="155" width="310" height="128" />
+        </mxCell>
+        <mxCell id="chapter" value="&lt;b&gt;CHAPTER&lt;/b&gt;&lt;br&gt;PK chapter_id · FK project_id&lt;br&gt;chapter_no, title&lt;br&gt;UQ (project_id, chapter_no)" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="400" y="360" width="310" height="128" />
+        </mxCell>
+        <mxCell id="version" value="&lt;b&gt;CHAPTER_VERSION&lt;/b&gt;&lt;br&gt;PK version_id · FK chapter_id&lt;br&gt;version_no, file_key, filename, submitted_at&lt;br&gt;UQ (chapter_id, version_no)" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="400" y="565" width="310" height="128" />
+        </mxCell>
+        <mxCell id="review" value="&lt;b&gt;VERSION_REVIEW&lt;/b&gt;&lt;br&gt;PK/FK version_id&lt;br&gt;decision, feedback, reviewed_at" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="795" y="565" width="310" height="128" />
+        </mxCell>
+        <mxCell id="r0" value="1 → 0..* per assignment role" edge="1" parent="1" source="account" target="project" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="r1" value="1 → 0..*" edge="1" parent="1" source="project" target="progress" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="r2" value="1 → 0..*" edge="1" parent="1" source="project" target="chapter" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="r3" value="1 → 1..*" edge="1" parent="1" source="chapter" target="version" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="r4" value="1 → 0..1" edge="1" parent="1" source="version" target="review" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;edgeStyle=orthogonalEdgeStyle;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="note" value="Submitted is derived when the latest version has no review. Otherwise its review determines the latest status.&lt;br&gt;The latest version is the highest version number. Chapter files and decisions remain attached to their version." vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="40" y="745" width="1095" height="70" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

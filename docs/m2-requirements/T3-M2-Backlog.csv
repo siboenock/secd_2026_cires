@@ -1,0 +1,41 @@
+﻿Issue Type,Summary,Description,Labels,Story Points
+Story,US-01 Submit a chapter remotely,"As a student, I want to submit a chapter remotely so I can send my work without arranging a visit.
+PP-01 / FR-01 / T-01
+Given an assigned project and a new chapter
+When the student uploads a valid file
+Then version 1 appears with its submission timestamp.",Must,3
+Story,US-02 Open the latest chapter,"As a supervisor, I want to open the latest chapter so I can review the correct file.
+PP-02 / FR-02 / T-02
+Given two versions of the same chapter
+When the assigned supervisor opens the chapter
+Then version 2 appears first and version 1 remains accessible.",Must,2
+Story,US-03 Record corrections on a version,"As a supervisor, I want to record corrections on a version so I can make the changes clear to the student.
+PP-03 / FR-03 / T-03
+Given a Submitted chapter version
+When the assigned supervisor saves feedback and selects Changes requested
+Then the feedback and decision appear on that version.",Must,3
+Story,US-04 Resubmit a revised chapter,"As a student, I want to resubmit a revised chapter so I can preserve the earlier review.
+PP-02 / FR-04 / T-04
+Given version 1 is marked Changes requested
+When the student uploads a valid revision
+Then version 2 is Submitted and version 1 retains its feedback.",Must,3
+Story,US-05 Check review status,"As a student, I want to check review status so I can know whether my next action is due.
+PP-04 / FR-05 / T-05
+Given a chapter has been reviewed
+When the student opens the project
+Then the latest decision and its feedback are visible.",Must,2
+Story,US-06 Share a specific GitHub update,"As a student, I want to share a specific github update so I can direct my supervisor to the relevant change.
+PP-05 / FR-06 / T-06
+Given an assigned project and a valid GitHub commit link
+When the student submits the link and a summary
+Then the supervisor sees both in the project updates list.",Must,3
+Story,US-07 Comment on a GitHub update,"As a supervisor, I want to comment on a github update so I can record what the student should change.
+PP-05 / FR-07 / T-07
+Given a shared GitHub update
+When the assigned supervisor saves a comment
+Then the student sees the comment beside that link.",Should,5
+Story,US-08 Filter my chapter list,"As a student, I want to filter my chapter list so I can find chapters that require action.
+PP-04 / FR-08 / T-08
+Given chapters with different statuses
+When the student filters by Changes requested
+Then only chapters with that status appear.",Could,5

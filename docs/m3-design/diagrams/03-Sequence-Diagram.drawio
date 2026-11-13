@@ -1,0 +1,167 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Submit review and revise">
+    <mxGraphModel grid="1" page="1" pageWidth="1200" pageHeight="900">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;b&gt;Chapter submission and review sequence&lt;/b&gt;&lt;br&gt;The same transaction rules apply when another revision is requested" vertex="1" parent="1" style="rounded=1;html=1;fillColor=#183738;strokeColor=none;fontColor=#ffffff;align=left;spacingLeft=18;fontSize=21;">
+          <mxGeometry as="geometry" x="35" y="25" width="1120" height="76" />
+        </mxCell>
+        <mxCell id="p0" value="Student" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="90" y="125" width="200" height="50" />
+        </mxCell>
+        <mxCell id="l0" value="" vertex="1" parent="1" style="fillColor=#829B92;strokeColor=none;">
+          <mxGeometry as="geometry" x="190" y="175" width="1" height="590" />
+        </mxCell>
+        <mxCell id="p1" value="Web application" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="330" y="125" width="200" height="50" />
+        </mxCell>
+        <mxCell id="l1" value="" vertex="1" parent="1" style="fillColor=#829B92;strokeColor=none;">
+          <mxGeometry as="geometry" x="430" y="175" width="1" height="590" />
+        </mxCell>
+        <mxCell id="p2" value="Database and file store" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="575" y="125" width="200" height="50" />
+        </mxCell>
+        <mxCell id="l2" value="" vertex="1" parent="1" style="fillColor=#829B92;strokeColor=none;">
+          <mxGeometry as="geometry" x="675" y="175" width="1" height="590" />
+        </mxCell>
+        <mxCell id="p3" value="Assigned supervisor" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="850" y="125" width="200" height="50" />
+        </mxCell>
+        <mxCell id="l3" value="" vertex="1" parent="1" style="fillColor=#829B92;strokeColor=none;">
+          <mxGeometry as="geometry" x="950" y="175" width="1" height="590" />
+        </mxCell>
+        <mxCell id="a0_0" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="188" y="203" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a0_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="203" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s0" value="1  Submit chapter file" edge="1" parent="1" source="a0_0" target="a0_1" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a1_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="241" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a1_2" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="673" y="241" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s1" value="2  Validate and store Version 1" edge="1" parent="1" source="a1_1" target="a1_2" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a2_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="279" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a2_0" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="188" y="279" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s2" value="3  Show Submitted and version number" edge="1" parent="1" source="a2_1" target="a2_0" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a3_3" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="948" y="317" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a3_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="317" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s3" value="4  Open latest version" edge="1" parent="1" source="a3_3" target="a3_1" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a4_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="355" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a4_2" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="673" y="355" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s4" value="5  Check assignment and load file" edge="1" parent="1" source="a4_1" target="a4_2" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a5_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="393" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a5_3" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="948" y="393" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s5" value="6  Display Version 1" edge="1" parent="1" source="a5_1" target="a5_3" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a6_3" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="948" y="431" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a6_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="431" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s6" value="7  Send decision and feedback" edge="1" parent="1" source="a6_3" target="a6_1" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a7_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="469" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a7_2" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="673" y="469" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s7" value="8  Save review if version is still current" edge="1" parent="1" source="a7_1" target="a7_2" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a8_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="507" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a8_3" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="948" y="507" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s8" value="9  Confirm review saved" edge="1" parent="1" source="a8_1" target="a8_3" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a9_0" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="188" y="545" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a9_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="545" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s9" value="10  Open chapter and read decision" edge="1" parent="1" source="a9_0" target="a9_1" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a10_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="583" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a10_0" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="188" y="583" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s10" value="11  Show feedback and permitted action" edge="1" parent="1" source="a10_1" target="a10_0" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a11_0" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="188" y="621" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a11_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="621" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s11" value="12  Submit revision if changes requested" edge="1" parent="1" source="a11_0" target="a11_1" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a12_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="659" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a12_2" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="673" y="659" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s12" value="13  Store Version 2 and retain Version 1" edge="1" parent="1" source="a12_1" target="a12_2" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="a13_1" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="428" y="697" width="4" height="4" />
+        </mxCell>
+        <mxCell id="a13_0" value="" vertex="1" parent="1" style="fillColor=none;strokeColor=none;">
+          <mxGeometry as="geometry" x="188" y="697" width="4" height="4" />
+        </mxCell>
+        <mxCell id="s13" value="14  Show Version 2 as Submitted" edge="1" parent="1" source="a13_1" target="a13_0" style="html=1;endArrow=block;strokeColor=#23645B;fontSize=13;labelBackgroundColor=#ffffff;dashed=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="alt" value="&lt;b&gt;Reviewed&lt;/b&gt; · The student may continue. No revision action is available.&lt;br&gt;&lt;b&gt;Invalid or stale request&lt;/b&gt; · Show the error and keep the current version and decision." vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F5F0;strokeColor=#79938C;fontColor=#193B3A;fontSize=15;align=left;spacingLeft=14;">
+          <mxGeometry as="geometry" x="40" y="770" width="1100" height="65" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
